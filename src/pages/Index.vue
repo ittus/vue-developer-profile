@@ -1,13 +1,17 @@
 <template>
   <Layout>
-    <work-card />
-    <certification-card />
-    <education-card />
-    <portfolio-card />
+    <Intro />
+    <div class="layout">
+      <work-card />
+      <certification-card />
+      <education-card />
+      <portfolio-card />
+    </div>
   </Layout>
 </template>
 
 <script>
+import Intro from '~/components/introduction/Intro.vue'
 import WorkCard from '~/components/WorkCard.vue'
 import CertificationCard from '~/components/CertificationCard.vue'
 import EducationCard from '~/components/EducationCard.vue'
@@ -18,7 +22,8 @@ export default {
     WorkCard,
     CertificationCard,
     EducationCard,
-    PortfolioCard
+    PortfolioCard,
+    Intro
   },
   metaInfo: {
     title: 'Hello, world!'
@@ -27,7 +32,10 @@ export default {
 </script>
 
 <style>
-.home-links a {
-  margin-right: 1rem;
+.layout {
+  max-width: 760px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 </style>
