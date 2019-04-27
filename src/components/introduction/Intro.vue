@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-sm-12 text-center">
           <g-image class="intro-hero-img"
-            src="~/assets/images/profile.jpg"
+            src="~/assets/images/profile.jpeg"
             alt=""
             quality="100"
             width="270"/>
@@ -28,7 +28,7 @@
             </p>
         </div>
         <div class="col-sm-12 mt-5">
-          <intro-social />
+          <intro-social :socials="socials" />
         </div>
       </div>
     </div>
@@ -40,6 +40,15 @@ import { VueTyper } from 'vue-typer'
 import IntroSocial from './IntroSocial.vue'
 export default {
   name: "",
+  props: {
+    'socials': {
+      type: Array,
+      required: false,
+      default: function() {
+        return []
+      }
+    }
+  },
   components: {
     VueTyper,
     IntroSocial

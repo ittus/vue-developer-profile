@@ -1,5 +1,5 @@
 <template>
-  <ul class="social-intro">
+  <ul class="social-intro pl-0">
     <li v-for="social in socials" :key="social.icon">
       <a :href="social.link" target="_blank">
         <font-awesome-icon :icon="['fab', social.icon]" :transform="{rotate: -45}"/>
@@ -15,28 +15,7 @@ export default {
       type: Array,
       required: false,
       default: function() {
-        return [
-          {
-            icon: 'linkedin-in',
-            link: "https://linkedin.com"
-          },
-          {
-            icon: 'stack-overflow',
-            link: "https://linkedin.com"
-          },
-          {
-            icon: 'github',
-            link: "https://linkedin.com"
-          },
-          {
-            icon: 'medium-m',
-            link: "https://medium.com"
-          },
-          {
-            icon: 'goodreads-g',
-            link: "https://goodread.com"
-          }
-        ]
+        return []
       }
     }
   },

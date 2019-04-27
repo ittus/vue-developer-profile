@@ -1,0 +1,24 @@
+{
+  "socials": [
+    {
+      "icon": "linkedin-in",
+      "link": "https://linkedin.com"
+    },
+    {
+      "icon": "stack-overflow",
+      "link": "https://linkedin.com"
+    },
+    {
+      "icon": "github",
+      "link": "https://linkedin.com"
+    },
+    {
+      "icon": "medium-m",
+      "link": "https://medium.com"
+    },
+    {
+      "icon": "goodreads-g",
+      "link": "https://goodread.com"
+    }
+  ]
+}

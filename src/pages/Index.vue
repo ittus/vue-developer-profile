@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <Intro />
+    <Intro :socials="profile.socials" />
     <div class="layout">
       <work-card />
       <certification-card />
@@ -16,6 +16,7 @@ import WorkCard from '~/components/WorkCard.vue'
 import CertificationCard from '~/components/CertificationCard.vue'
 import EducationCard from '~/components/EducationCard.vue'
 import PortfolioCard from '~/components/PortfolioCard.vue'
+import profile from '~/data/profile.json'
 
 export default {
   components: {
@@ -25,8 +26,11 @@ export default {
     PortfolioCard,
     Intro
   },
+  data: () => ({
+    profile
+  }),
   metaInfo: {
-    title: 'Hello, world!'
+    title: 'Thang Minh Vu resume'
   }
 }
 </script>
