@@ -5,13 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome',
+  siteName: 'Thang Vu profile',
   plugins: [
-    {
-      use: 'gridsome-source-static-meta',
-      options: {
-        path: 'data/*.json'
-      }
-   }
   ]
 }

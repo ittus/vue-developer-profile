@@ -2,6 +2,7 @@
   <Layout>
     <Intro :socials="profile.socials" />
     <div class="layout">
+      <overview :socials="profile.socials"/>
       <work-card />
       <certification-card />
       <education-card />
@@ -16,6 +17,7 @@ import WorkCard from '~/components/WorkCard.vue'
 import CertificationCard from '~/components/CertificationCard.vue'
 import EducationCard from '~/components/EducationCard.vue'
 import PortfolioCard from '~/components/PortfolioCard.vue'
+import Overview from '~/components/Overview.vue'
 import profile from '~/data/profile.json'
 
 export default {
@@ -24,7 +26,8 @@ export default {
     CertificationCard,
     EducationCard,
     PortfolioCard,
-    Intro
+    Intro,
+    Overview
   },
   data: () => ({
     profile

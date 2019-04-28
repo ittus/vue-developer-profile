@@ -1,24 +1,34 @@
 {
   "socials": [
     {
-      "icon": "linkedin-in",
-      "link": "https://linkedin.com"
-    },
-    {
-      "icon": "stack-overflow",
-      "link": "https://linkedin.com"
-    },
-    {
+      "name": "Github",
       "icon": "github",
-      "link": "https://linkedin.com"
+      "link": "https://linkedin.com",
+      "color": "#333"
     },
     {
+      "name": "Stack Overflow",
+      "icon": "stack-overflow",
+      "link": "https://linkedin.com",
+      "color": "#f48024"
+    },
+    {
+      "name": "Medium",
       "icon": "medium-m",
-      "link": "https://medium.com"
+      "link": "https://medium.com",
+      "color": "#02b875"
     },
     {
+      "name": "Goodreads",
       "icon": "goodreads-g",
-      "link": "https://goodread.com"
+      "link": "https://goodread.com",
+      "color": "#553b08"
+    },
+    {
+      "name": "Linkedin",
+      "icon": "linkedin-in",
+      "link": "https://linkedin.com",
+      "color": "#0077B5"
     }
   ]
 }
