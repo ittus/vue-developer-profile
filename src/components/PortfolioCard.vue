@@ -52,6 +52,15 @@ export default {
       return this.$static.projects.edges.map(item => item.node)
     }
   },
+  watch: {
+    showModal (newVal) {
+      if (newVal) {
+        document.body.classList.add('v--modal-block-scroll')
+      } else {
+        document.body.classList.remove('v--modal-block-scroll')
+      }
+    }
+  },
   methods: {
     getDescription(projectFileName) {
       const filename = `/src/data/projects/${projectFileName}`

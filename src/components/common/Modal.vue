@@ -8,6 +8,9 @@
             <slot name="header">
               default header
             </slot>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close" @click="$emit('close')">
+              <span aria-hidden="true">&times;</span>
+            </button>
           </div>
 
           <div class="modal-body">
@@ -44,8 +47,8 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
+  overflow-y: auto;
   background-color: rgba(0, 0, 0, .5);
-  display: table;
   transition: opacity .3s ease;
 }
 

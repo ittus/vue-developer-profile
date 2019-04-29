@@ -11,20 +11,22 @@
             <h2 class="hero-title">Hello Guys, I'm <strong>Thang</strong></h2>
             <p class="hero-tagline">
               I am a
-              <vue-typer
-                class="typing-list"
-                :text='["Software Engineer", "Bug Producer", "Open source contributor"]'
-                :repeat='Infinity'
-                :shuffle='false'
-                initial-action='typing'
-                :pre-type-delay='70'
-                :type-delay='60'
-                :pre-erase-delay='2000'
-                :erase-delay='40'
-                erase-style='backspace'
-                :erase-on-complete='false'
-                caret-animation='blink'
-                />
+              <ClientOnly>
+                <vue-typer
+                  class="typing-list"
+                  :text='["Software Engineer", "Bug Producer", "Open source contributor"]'
+                  :repeat='Infinity'
+                  :shuffle='false'
+                  initial-action='typing'
+                  :pre-type-delay='70'
+                  :type-delay='60'
+                  :pre-erase-delay='2000'
+                  :erase-delay='40'
+                  erase-style='backspace'
+                  :erase-on-complete='false'
+                  caret-animation='blink'
+                  />
+              </ClientOnly>
             </p>
         </div>
         <div class="col-sm-12 mt-5">
@@ -36,7 +38,6 @@
 </template>
 
 <script>
-import { VueTyper } from 'vue-typer'
 import IntroSocial from './IntroSocial.vue'
 export default {
   name: "",
@@ -50,7 +51,7 @@ export default {
     }
   },
   components: {
-    VueTyper,
+    VueTyper: () => import('vue-typer').then(m => m.VueTyper),
     IntroSocial
   },
   data: () => ({
