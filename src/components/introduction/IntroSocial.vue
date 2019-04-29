@@ -1,9 +1,9 @@
 <template>
   <ul class="social-intro pl-0">
     <li v-for="social in socials" :key="social.icon">
-      <g-link :to="social.link">
-        <font-awesome-icon :icon="['fab', social.icon]" :transform="{rotate: -45}"/>
-      </g-link>
+      <a :href="social.link" target="_blank">
+        <font-awesome-icon :icon="['fab', social.icon]"/>
+      </a>
     </li>
   </ul>
 </template>
@@ -44,6 +44,22 @@ export default {
       -ms-transform: rotate(45deg);
       transform: rotate(45deg);
       margin: 5px;
+      transition: .3s;
+      svg {
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+      }
+    }
+    a:hover {
+      transform: rotate(0);
+      background: rgba(244, 244, 244, 0.8);
+      color: #1453F2;
+      svg {
+        -webkit-transform: rotate(0);
+        -ms-transform: rotate(0);
+        transform: rotate(0);
+      }
     }
   }
 }

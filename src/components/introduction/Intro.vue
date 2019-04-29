@@ -8,13 +8,13 @@
             alt=""
             quality="100"
             width="270"/>
-            <h2 class="hero-title">Hello Guys, I'm <strong>Thang</strong></h2>
+            <h2 class="hero-title">Hello Guys, I'm <strong>{{ personal.name }}</strong></h2>
             <p class="hero-tagline">
               I am a
               <ClientOnly>
                 <vue-typer
                   class="typing-list"
-                  :text='["Software Engineer", "Bug Producer", "Open source contributor"]'
+                  :text='personal.roles'
                   :repeat='Infinity'
                   :shuffle='false'
                   initial-action='typing'
@@ -47,6 +47,13 @@ export default {
       required: false,
       default: function() {
         return []
+      }
+    },
+    'personal': {
+      type: Object,
+      required: true,
+      default: function() {
+        return {}
       }
     }
   },

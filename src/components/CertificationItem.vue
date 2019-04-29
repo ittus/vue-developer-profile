@@ -7,7 +7,7 @@
     </div>
     <div class="cert-content">
       <h4 class="mb-1"><a :href="certification.link" target="_blank">{{ certification.name }}</a></h4>
-      <div>{{ certification.granted }}</div>
+      <div>{{ certification.granted }} | {{ certification.date }}</div>
       <div class="mt-3">{{ certification.description }}</div>
     </div>
   </div>

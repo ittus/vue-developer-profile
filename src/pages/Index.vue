@@ -1,8 +1,8 @@
 <template>
   <Layout>
-    <Intro :socials="profile.socials" />
+    <Intro :socials="profile.socials" :personal="profile.personal"/>
     <div class="layout">
-      <overview :socials="profile.socials"/>
+      <overview :socials="profile.socials" :personal="profile.personal"/>
       <work-card :works="profile.works" />
       <certification-card :certifications="profile.certifications"/>
       <education-card :educations="profile.educations"/>

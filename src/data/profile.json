@@ -1,4 +1,9 @@
 {
+  "personal": {
+    "name": "Thang",
+    "full_name": "Thang Vu",
+    "roles": ["Software Engineer", "Bug Producer", "Open source contributor", "Coffee lover"]
+  },
   "socials": [
     {
       "name": "Github",
@@ -143,7 +148,7 @@
       "granted": "Microsoft",
       "link": "https://www.youracclaim.com/badges/409e2244-907a-462a-bb67-bbe0c58cae92",
       "icon": "https://user-images.githubusercontent.com/5120965/56879878-8a089380-6a95-11e9-9328-afd2e7a46448.png",
-      "description": "Demonstrates basic Linux administration skill. The participant can work at the Linux command line, perform basic maintenance tasks, install and configure a workstation and connect it to a LAN, or a standalone PC or the Internet."
+      "description": "Demonstrates expertise in compute, network, storage, and security so that they can design solutions that run on Azure."
     },
     {
       "name": "CompTIA Linux+",

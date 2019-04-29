@@ -2,7 +2,7 @@
   <div>
     <Card title="Overview">
       <p class="lead">
-        Hello, I'm <strong>Thang Vu</strong>, a Software Engineer based in Tokyo, Japan. Find me on
+        Hello, I'm <strong>{{ personal.full_name }}</strong>, a Software Engineer based in Tokyo, Japan. Find me on
         <template v-for="(social, idx) in socials">
           <a
             :key="idx"
@@ -18,7 +18,7 @@
         As a Software Engineer, I would like to bring technology to make life easier and increase productivity. I also want to create great products which have good design architecture, high scalability and easy to maintain.
       </p>
       <p>
-        I'm looking for opportunities to build and improve exciting and challenging projects!
+        I'm looking for opportunities to participate in challenging projects!
       </p>
       <div class="mt-5">
         <button class="btn btn-primary">Download Resume</button>
@@ -37,6 +37,13 @@ export default {
       required: true,
       default: function() {
         return []
+      }
+    },
+    'personal': {
+      type: Object,
+      required: true,
+      default: function() {
+        return {}
       }
     }
   },
