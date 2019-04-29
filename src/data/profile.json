@@ -61,6 +61,38 @@
       "image": "/assets/images/projects/waach.jpg"
     }
   ],
+  "works": [
+    {
+      "title": "Software Engineer",
+      "company": "ABEJA Inc. - Japan",
+      "start": "July 2017",
+      "end": "Present",
+      "description": [
+        "Develop and maintain company's web application",
+        "Working with VueJS, AWS, Google Cloud and serverless architecture"
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Golden Equator Consulting - Singapore",
+      "start": "Nov 2015",
+      "end": "Apr 2017",
+      "description": [
+        "Web front-end developer using React JS",
+        "Web backend using NodejS, Django, PostgreSQL and Cassandra"
+      ]
+    },
+    {
+      "title": "PHP and Android Developer",
+      "company": "FPT Software - Vietnam",
+      "start": "Jan 2013",
+      "end": "Sep 2013",
+      "description": [
+        "Internship as Android developer",
+        "Develop a Mail System Website using Oracle Database 10g and PHP (Zend 2 Framework)"
+      ]
+    }
+  ],
   "certifications": [
     {
       "name": "Professional Scrum Master I",

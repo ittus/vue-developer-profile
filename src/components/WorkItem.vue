@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <div class="mb-5">
     <h4 class="pt-0 my-0">{{ employment.title }} | {{ employment.company }}</h4>
     <div class="text-muted mt-2">
       {{ employment.start }} - {{ employment.end }}
     </div>
-    <p>
+    <p class="mt-1">
       <ul>
         <li v-for="(desc, idx) in employment.description" :key="idx">
           {{ desc }}

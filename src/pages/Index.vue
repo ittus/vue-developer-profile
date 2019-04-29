@@ -3,7 +3,7 @@
     <Intro :socials="profile.socials" />
     <div class="layout">
       <overview :socials="profile.socials"/>
-      <work-card />
+      <work-card :works="profile.works" />
       <certification-card :certifications="profile.certifications"/>
       <education-card />
       <portfolio-card :projects="profile.projects" />

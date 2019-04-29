@@ -11,10 +11,6 @@
       </div>
     </Card>
     <modal v-if="showModal && currentProject" @close="showModal = false">
-    <!--
-      you can use custom content here to overwrite
-      default content
-    -->
       <h3 slot="header">{{ currentProject.name }}</h3>
       <div slot="body">
         <div v-html="getDescription(currentProject.code)"></div>
