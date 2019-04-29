@@ -16,6 +16,8 @@
     "vue-typer": "^1.2.0"
   },
   "devDependencies": {
+    "@gridsome/source-filesystem": "^0.3.0",
+    "@gridsome/transformer-remark": "^0.2.1",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0"
   }

@@ -1,9 +1,9 @@
 <template>
   <ul class="social-intro pl-0">
     <li v-for="social in socials" :key="social.icon">
-      <a :href="social.link" target="_blank">
+      <g-link :to="social.link">
         <font-awesome-icon :icon="['fab', social.icon]" :transform="{rotate: -45}"/>
-      </a>
+      </g-link>
     </li>
   </ul>
 </template>

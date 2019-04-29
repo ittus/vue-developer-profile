@@ -6,7 +6,7 @@
       <work-card />
       <certification-card />
       <education-card />
-      <portfolio-card />
+      <portfolio-card :projects="profile.projects" />
     </div>
   </Layout>
 </template>

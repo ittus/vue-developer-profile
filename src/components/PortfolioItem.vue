@@ -1,7 +1,11 @@
 <template>
-  <div class="mb-3">
+  <div class="mb-3" @click="showDetail">
     <div>
-      <div class="thumbnail" :style="thumbStyle"></div>
+      <g-image src="~/assets/images/projects/waach_thumb.png" fit="cover" v-if="project.code === 'waach'"/>
+      <g-image src="~/assets/images/projects/mouse_miner_thumb.png" fit="cover" v-else-if="project.code === 'golden-mouse-miner'"/>
+      <g-image src="~/assets/images/projects/vuejs_shopping_cart_thumb.png" fit="cover" v-else-if="project.code === 'vuejs-shopping-cart'"/>
+      <g-image src="~/assets/images/projects/maze_city_thumb.png" fit="cover" v-else="project.code === 'maze-city'"/>
+
       <div>{{ project.name }}</div>
     </div>
   </div>
@@ -18,20 +22,16 @@ export default {
       type: Object,
       default: function() {
         return {
-          name: "VueJS Firebase Shopping Cart",
-          thumbnail: "https://www.upwork.com/att/download/portfolio/persons/uid/618029776590065664/profile/projects/files/998549258151673856"
         }
       }
     }
   },
   computed: {
-    thumbStyle() {
-      return {
-        backgroundImage: `url(${this.project.thumbnail})`
-      }
-    }
   },
   methods: {
+    showDetail() {
+      this.$emit('showDetail')
+    }
   }
 }
 </script>

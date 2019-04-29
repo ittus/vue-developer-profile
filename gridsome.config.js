@@ -6,6 +6,28 @@
 
 module.exports = {
   siteName: 'Thang Vu profile',
+  transformers: {
+    remark: {
+     externalLinksTarget: '_blank',
+     externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+     anchorClassName: 'icon icon-link',
+     plugins: [
+       // ...global plugins
+     ]
+   }
+  },
   plugins: [
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'src/data/projects/*.md',
+        typeName: 'Project',
+        remark: {
+          plugins: [
+            // ...local plugins
+          ]
+        }
+      }
+    }
   ]
 }

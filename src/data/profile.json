@@ -30,5 +30,35 @@
       "link": "https://linkedin.com",
       "color": "#0077B5"
     }
+  ],
+  "projects": [
+    {
+      "name": "waach",
+      "date": "March 2017",
+      "code": "waach",
+      "thumbnail": "waach_thumb.png",
+      "image": "/assets/images/projects/waach.jpg"
+    },
+    {
+      "name": "VueJS Firebase Shopping Cart",
+      "date": "June 2014",
+      "code": "vuejs-shopping-cart",
+      "thumbnail": "mouse_miner_thumb.png",
+      "image": "/assets/images/projects/waach.jpg"
+    },
+    {
+      "name": "Maze City",
+      "date": "June 2014",
+      "code": "maze-city",
+      "thumbnail": "mouse_miner_thumb.png",
+      "image": "/assets/images/projects/waach.jpg"
+    },
+    {
+      "name": "Golden Mouse Miner",
+      "date": "June 2014",
+      "code": "golden-mouse-miner",
+      "thumbnail": "mouse_miner_thumb.png",
+      "image": "/assets/images/projects/waach.jpg"
+    }
   ]
 }
