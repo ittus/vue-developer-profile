@@ -39,7 +39,7 @@ export default {
     profile
   }),
   metaInfo: {
-    title: 'Thang Minh Vu resume'
+    title: 'Thang Minh Vu profile'
   }
 }
 </script>

@@ -12,7 +12,7 @@ export default {
       type: String,
       required: false,
       default: function() {
-        return 'https://github.com/ittus/vue-developer-resume'
+        return 'https://github.com/ittus/vue-developer-profile'
       }
     }
   },

@@ -1,12 +1,34 @@
-# Default starter for Gridsome
+# Developer profile
+Developer profile's built with [Gridsome](https://gridsome.org/) + [VueJS](https://vuejs.org/)
 
-### 1. Install Gridsome CLI tool if you don't have
+Checkout [demo](me.coddeine.com)
 
-`npm install --global @gridsome/cli`
+![Gridsome + Vue](/docs/images/gridsome_vue.png)
 
-### 2. Create a Gridsome project
+## Support
+<a href="https://www.buymeacoffee.com/8buMYCOog" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;"></a>
 
-1. `gridsome create my-gridsome-site` to install default starter
-2. `cd my-gridsome-site` to open the folder
-3. `gridsome develop` to start a local dev server at `http://localhost:8080`
-4. Happy coding 🎉🙌
+
+
+## Develop
+- Fork this repository
+- Run following command
+```bash
+yarn install
+yarn develop
+```
+
+## Build
+
+```bash
+yarn build
+```
+
+## Customize
+Most of information is pulled from [profile.json](/src/data/profile.json) file. Please change it to your information.
+
+### Portfolio section
+Portfolio (or project) data is read from Markdown file in /src/data/projects folder. Feel free to use any Markdown syntax in there.
+
+## License
+[MIT](https://opensource.org/licenses/MIT)
