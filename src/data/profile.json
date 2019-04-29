@@ -4,6 +4,9 @@
     "full_name": "Thang Vu",
     "roles": ["Software Engineer", "Bug Producer", "Open source contributor", "Coffee lover"]
   },
+  "meta": {
+    "githubUrl": "https://github.com/ittus/vue-developer-resume"
+  },
   "socials": [
     {
       "name": "Github",

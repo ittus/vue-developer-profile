@@ -1,5 +1,6 @@
 <template>
   <Layout>
+    <fork-github :githubUrl="profile.githubUrl" />
     <Intro :socials="profile.socials" :personal="profile.personal"/>
     <div class="layout">
       <overview :socials="profile.socials" :personal="profile.personal"/>
@@ -19,6 +20,7 @@ import EducationCard from '~/components/EducationCard.vue'
 import PortfolioCard from '~/components/PortfolioCard.vue'
 import Overview from '~/components/Overview.vue'
 import profile from '~/data/profile.json'
+import ForkGithub from '~/components/common/ForkGithub.vue'
 
 export default {
   components: {
@@ -27,7 +29,8 @@ export default {
     EducationCard,
     PortfolioCard,
     Intro,
-    Overview
+    Overview,
+    ForkGithub
   },
   data: () => ({
     profile
