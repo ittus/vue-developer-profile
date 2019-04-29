@@ -5,7 +5,7 @@
       <overview :socials="profile.socials"/>
       <work-card :works="profile.works" />
       <certification-card :certifications="profile.certifications"/>
-      <education-card />
+      <education-card :educations="profile.educations"/>
       <portfolio-card :projects="profile.projects" />
     </div>
   </Layout>

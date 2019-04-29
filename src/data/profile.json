@@ -31,6 +31,33 @@
       "color": "#0077B5"
     }
   ],
+  "educations": [
+    {
+      "degree": "Bachelor",
+      "major": "Software Engineering",
+      "name": "FPT University - Vietnam",
+      "start": "2010",
+      "end": "2015",
+      "description": []
+    },
+    {
+      "degree": "Exchange student",
+      "major": "",
+      "name": "Hochschule Furtwangen University - Germany",
+      "start": "Sep 2013",
+      "end": "Feb 2014",
+      "description": [
+      ]
+    },
+    {
+      "degree": "",
+      "major": "Mathematics",
+      "name": "Hanoi University of Education, High school for gifted student",
+      "start": "2007",
+      "end": "2010",
+      "description": []
+    }
+  ],
   "projects": [
     {
       "name": "waach",
