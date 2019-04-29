@@ -63,7 +63,6 @@ export default {
       return this.projectDescriptions.find(item => item.path === filename).content
     },
     onShowDetail (project) {
-      console.log("On item click", project)
       this.currentProject = project
       this.showModal = true
     }

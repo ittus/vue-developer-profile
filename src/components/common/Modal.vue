@@ -53,12 +53,10 @@ export default {
 }
 
 .modal-wrapper {
-  display: table-cell;
-  vertical-align: middle;
 }
 
 .modal-container {
-  width: 75%;
+  width: 70%;
   margin: 0px auto;
   padding: 20px 30px;
   background-color: #fff;
@@ -66,6 +64,12 @@ export default {
   box-shadow: 0 2px 8px rgba(0, 0, 0, .33);
   transition: all .3s ease;
   font-family: Helvetica, Arial, sans-serif;
+}
+
+@media (max-width: 991.98px) {
+  .modal-container {
+    width: 85%;
+  }
 }
 
 .modal-header h3 {
