@@ -21,13 +21,15 @@
         I'm looking for opportunities to participate in challenging projects!
       </p>
       <div class="mt-5">
-        <button class="btn btn-primary">Download Resume</button>
+        <button class="btn btn-primary mr-3">Download Resume</button>
+        <buy-me-a-coffee v-if="coffeeDonateUrl" :coffeeDonateUrl="coffeeDonateUrl"/>
       </div>
     </Card>
   </div>
 </template>
 <script>
 import Card from './Card.vue'
+import BuyMeACoffee from './common/BuyMeACoffee.vue'
 
 export default {
   name: "Overview",
@@ -45,10 +47,18 @@ export default {
       default: function() {
         return {}
       }
+    },
+    "coffeeDonateUrl": {
+      type: String,
+      required: false,
+      default: function() {
+        return "https://www.buymeacoffee.com/8buMYCOog"
+      }
     }
   },
   components: {
-    Card
+    Card,
+    BuyMeACoffee
   },
   data: () => ({
 

@@ -1,9 +1,12 @@
 <template>
   <Layout>
-    <fork-github :githubUrl="profile.githubUrl" />
+    <fork-github :githubUrl="profile.githubUrl" v-if="profile.githubUrl" />
     <Intro :socials="profile.socials" :personal="profile.personal"/>
     <div class="layout">
-      <overview :socials="profile.socials" :personal="profile.personal"/>
+      <overview
+        :socials="profile.socials"
+        :personal="profile.personal"
+        :coffeeDonateUrl="profile.buy_me_coffee_url"/>
       <work-card :works="profile.works" />
       <certification-card :certifications="profile.certifications"/>
       <education-card :educations="profile.educations"/>
