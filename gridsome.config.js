@@ -6,6 +6,8 @@
 
 module.exports = {
   siteName: 'Thang Vu profile',
+  siteUrl: 'https://me.coddeine.com',
+  pathPrefix: '/vue-developer-profile',
   transformers: {
     remark: {
      externalLinksTarget: '_blank',
