@@ -21,7 +21,7 @@
         I'm looking for opportunities to participate in challenging projects!
       </p>
       <div class="mt-5">
-        <button class="btn btn-primary mr-3">Download Resume</button>
+        <button class="btn btn-primary mr-3" @click="downloadResume">Download Resume</button>
         <buy-me-a-coffee v-if="coffeeDonateUrl" :coffeeDonateUrl="coffeeDonateUrl"/>
       </div>
     </Card>
@@ -62,7 +62,12 @@ export default {
   },
   data: () => ({
 
-  })
+  }),
+  methods: {
+    downloadResume() {
+      window.open("https://www.linkedin.com/in/ittus/", "_blank")
+    }
+  }
 }
 </script>
 <style lang="scss" scoped>

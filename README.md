@@ -1,7 +1,7 @@
 # Developer profile
 Developer profile's built with [Gridsome](https://gridsome.org/) + [VueJS](https://vuejs.org/)
 
-Checkout [demo](me.coddeine.com)
+Checkout [demo](https://me.coddeine.com)
 
 ![Gridsome + Vue](/docs/images/gridsome_vue.png)
 
