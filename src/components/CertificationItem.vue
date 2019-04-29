@@ -1,8 +1,8 @@
 <template>
-  <div class="wrapper">
-    <div class="cert-badge">
+  <div class="wrapper mb-5">
+    <div class="cert-badge mr-2">
       <a :href="certification.link" target="_blank">
-        <img :src="certification.icon" alt="">
+        <g-image :src="certification.icon" alt="" />
       </a>
     </div>
     <div class="cert-content">
@@ -19,13 +19,7 @@ export default {
     'certification': {
       type: Object,
       default: function() {
-        return {
-          "name": "MongoDB Certified Developer, Associate",
-          "granted": "MongoDB University",
-          "link": "https://certification.comptia.org/UI/Assets/siteIcons/logoSecurityPlus.svg",
-          "icon": "https://certification.comptia.org/UI/Assets/siteIcons/logoSecurityPlus.svg",
-          "description": "Certifies individuals with knowledge of the fundamentals of designing and building applications using MongoDB."
-        }
+        return {}
       }
     }
   },

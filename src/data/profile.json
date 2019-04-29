@@ -60,5 +60,87 @@
       "thumbnail": "mouse_miner_thumb.png",
       "image": "/assets/images/projects/waach.jpg"
     }
+  ],
+  "certifications": [
+    {
+      "name": "Professional Scrum Master I",
+      "date": "Jan 2019",
+      "granted": "Scrum.org",
+      "link": "https://www.scrum.org/user/441236",
+      "icon": "https://user-images.githubusercontent.com/5120965/56880039-2cc11200-6a96-11e9-9ebf-32218a037228.png",
+      "description": "Fundamental knowledge of the Scrum framework and its application."
+    },
+    {
+      "name": "CompTIA Security+",
+      "date": "Feb 2018",
+      "granted": "Microsoft",
+      "link": "https://www.dropbox.com/s/rfkfwcnrxdpos4j/CompTIA%20Security%2B%20ce%20certificate.pdf?dl=0",
+      "icon": "https://user-images.githubusercontent.com/5120965/56878314-668e1a80-6a8e-11e9-8b02-8185cec8123d.png",
+      "description": "As a benchmark for best practices in IT security, this certification covers the essential principles for network security and risk management."
+    },
+    {
+      "name": "Architecting Microsoft Azure Solutions",
+      "date": "July 2017",
+      "granted": "Microsoft",
+      "link": "https://www.youracclaim.com/badges/409e2244-907a-462a-bb67-bbe0c58cae92",
+      "icon": "https://user-images.githubusercontent.com/5120965/56879878-8a089380-6a95-11e9-9328-afd2e7a46448.png",
+      "description": "Demonstrates basic Linux administration skill. The participant can work at the Linux command line, perform basic maintenance tasks, install and configure a workstation and connect it to a LAN, or a standalone PC or the Internet."
+    },
+    {
+      "name": "CompTIA Linux+",
+      "date": "Dec 2016",
+      "granted": "CompTIA",
+      "link": "https://www.certmetrics.com/comptia/public/verification.aspx?code=NZ7N6NSFJGB1QB95",
+      "icon": "https://user-images.githubusercontent.com/5120965/56879758-1fefee80-6a95-11e9-9d2c-9a84a4cee79a.png",
+      "description": "Demonstrates basic Linux administration skill. The participant can work at the Linux command line, perform basic maintenance tasks, install and configure a workstation and connect it to a LAN, or a standalone PC or the Internet."
+    },
+    {
+      "name": "LPIC-1: Certified Linux Administrator",
+      "date": "Dec 2016",
+      "granted": "Linux Professional Institue",
+      "link": "https://www.dropbox.com/s/3al6yto2apakj5h/Cassandra_2.1.pdf?dl=0",
+      "icon": "https://user-images.githubusercontent.com/5120965/56879441-a73c6280-6a93-11e9-9ac5-1bd34d60cb26.png",
+      "description": "Demonstrates basic Linux administration skill. The participant can work at the Linux command line, perform basic maintenance tasks, install and configure a workstation and connect it to a LAN, or a standalone PC or the Internet."
+    },
+    {
+      "name": "Certified Developer on Apache Cassandra",
+      "date": "Sep 2016",
+      "granted": "Datastax and O'Reilly Media",
+      "link": "https://www.dropbox.com/s/3al6yto2apakj5h/Cassandra_2.1.pdf?dl=0",
+      "icon": "https://user-images.githubusercontent.com/5120965/56879294-136a9680-6a93-11e9-95ee-b117e6c60c8e.png",
+      "description": "Fundamental Apache Cassandra™ knowledge"
+    },
+    {
+      "name": "AWS Certified Solutions Architect - Associate",
+      "date": "May 2016",
+      "granted": "Amazon Web Services",
+      "link": "https://www.dropbox.com/s/7e2an9v31r7pbk5/awsSolutionsArchitect_AE.pdf?dl=0",
+      "icon": "https://user-images.githubusercontent.com/5120965/56879200-89bac900-6a92-11e9-8ef2-3802a8c0e6cb.png",
+      "description": "Validates technical expertise in designing and deploying scalable, highly available, and fault-tolerant systems on the AWS platform"
+    },
+    {
+      "name": "MongoDB Certified Developer, Associate",
+      "date": "Jan 2016",
+      "granted": "MongoDB University",
+      "link": "https://certification.comptia.org/UI/Assets/siteIcons/logoSecurityPlus.svg",
+      "icon": "https://user-images.githubusercontent.com/5120965/56878289-42cad480-6a8e-11e9-8702-32a24c49717c.png",
+      "description": "Certifies individuals with knowledge of the fundamentals of designing and building applications using MongoDB."
+    },
+    {
+      "name": "Java SE 6 Programmer Certified Professional (OCPJP)",
+      "date": "Sep 2015",
+      "granted": "Oracle",
+      "link": "https://www.dropbox.com/s/t1lpybt5r4xbmz4/OCJP6.pdf?dl=0",
+      "icon": "https://user-images.githubusercontent.com/5120965/56878996-b0c4cb00-6a91-11e9-985e-399499cb8ef7.png",
+      "description": "Certifies individuals with knowledge of fundamentals of Java, demonstrating an understanding of Java knowledge and skills"
+    },
+    {
+      "name": "Fundamental Information Technology Engineer Examination (FE)",
+      "date": "Apr 2014",
+      "granted": "JITEC & VITEC",
+      "link": "https://www.dropbox.com/s/vsciklw8obju377/FE.pdf?dl=0",
+      "icon": "https://user-images.githubusercontent.com/5120965/56878593-de107980-6a8f-11e9-9c43-3ac3816a42ce.png",
+      "description": "Japanese IT exam, the knowledge areas that are tested are taken from software engineering, information systems and computer science"
+    }
   ]
 }

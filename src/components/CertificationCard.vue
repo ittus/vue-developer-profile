@@ -1,7 +1,14 @@
 <template>
   <div>
     <Card title="Certifications">
-      <CertificationItem />
+      <template v-for="(cert, idx) in certifications">
+        <CertificationItem
+          :key="idx"
+          :certification="cert"
+        />
+        <hr class="my-5" v-if="idx !== certifications.length - 1">
+      </template>
+
     </Card>
   </div>
 </template>
@@ -11,6 +18,15 @@ import CertificationItem from './CertificationItem.vue'
 
 export default {
   name: "CertificationCard",
+  props: {
+    'certifications': {
+      type: Array,
+      required: true,
+      default: function() {
+        return []
+      }
+    }
+  },
   components: {
     CertificationItem,
     Card

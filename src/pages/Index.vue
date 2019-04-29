@@ -4,7 +4,7 @@
     <div class="layout">
       <overview :socials="profile.socials"/>
       <work-card />
-      <certification-card />
+      <certification-card :certifications="profile.certifications"/>
       <education-card />
       <portfolio-card :projects="profile.projects" />
     </div>
