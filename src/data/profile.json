@@ -14,7 +14,7 @@
       "color": "#333"
     },
     {
-      "name": "Stack Overflow",
+      "name": "Stackoverflow",
       "icon": "stack-overflow",
       "link": "https://stackoverflow.com/users/2303610/ittus",
       "color": "#f48024"
@@ -103,7 +103,8 @@
       "end": "Present",
       "description": [
         "Develop and maintain company's web application",
-        "Working with VueJS, AWS, Google Cloud and serverless architecture"
+        "Working with VueJS, AWS, Google Cloud and serverless architecture",
+        "Backend development with NodeJS, Ruby On Rails and Golang"
       ]
     },
     {
@@ -128,6 +129,14 @@
     }
   ],
   "certifications": [
+    {
+      "name": "Certified Kubernetes Administrator (CKA)",
+      "date": "Oct 2019",
+      "granted": "Cloud Native Computing Foundation (CNCF) and The Linux Foundation",
+      "link": "https://www.dropbox.com/s/tsaotxnpds2ukhy/CKA_Certificate.pdf?dl=0",
+      "icon": "https://user-images.githubusercontent.com/5120965/66748122-61e4e380-eec1-11e9-8f28-12876f3f82cd.png",
+      "description": "Provide assurance that CKAs have the skills, knowledge, and competency to perform the responsibilities of Kubernetes administrators."
+    },
     {
       "name": "Professional Scrum Master I",
       "date": "Jan 2019",
@@ -188,7 +197,7 @@
       "name": "MongoDB Certified Developer, Associate",
       "date": "Jan 2016",
       "granted": "MongoDB University",
-      "link": "https://certification.comptia.org/UI/Assets/siteIcons/logoSecurityPlus.svg",
+      "link": "https://www.dropbox.com/s/jcr9xc09ysisyq7/mongodb.pdf?dl=0",
       "icon": "https://user-images.githubusercontent.com/5120965/56878289-42cad480-6a8e-11e9-8702-32a24c49717c.png",
       "description": "Certifies individuals with knowledge of the fundamentals of designing and building applications using MongoDB."
     },
