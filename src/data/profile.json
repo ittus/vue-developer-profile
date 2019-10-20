@@ -133,9 +133,17 @@
       "name": "Certified Kubernetes Administrator (CKA)",
       "date": "Oct 2019",
       "granted": "Cloud Native Computing Foundation (CNCF) and The Linux Foundation",
-      "link": "https://www.dropbox.com/s/tsaotxnpds2ukhy/CKA_Certificate.pdf?dl=0",
+      "link": "https://www.youracclaim.com/badges/f161f0f5-2bba-48c2-ace9-052305f7107c/public_url",
       "icon": "https://user-images.githubusercontent.com/5120965/66748122-61e4e380-eec1-11e9-8f28-12876f3f82cd.png",
       "description": "Provide assurance that CKAs have the skills, knowledge, and competency to perform the responsibilities of Kubernetes administrators."
+    },
+    {
+      "name": "Certified Kubernetes Application Developer (CKAD)",
+      "date": "Oct 2019",
+      "granted": "Cloud Native Computing Foundation (CNCF) and The Linux Foundation",
+      "link": "https://www.dropbox.com/s/2creakpaos9rwdf/CKAD_Certificate.pdf?dl=0",
+      "icon": "https://user-images.githubusercontent.com/5120965/66748122-61e4e380-eec1-11e9-8f28-12876f3f82cd.png",
+      "description": "Ability to define application resources and use core primitives to build, monitor, and troubleshoot scalable applications and tools in Kubernetes."
     },
     {
       "name": "Professional Scrum Master I",
