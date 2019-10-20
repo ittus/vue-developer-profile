@@ -14,14 +14,14 @@ Checkout [demo](https://me.coddeine.com)
 - Fork this repository
 - Run following command
 ```bash
-yarn install
-yarn develop
+npm install
+npm run develop
 ```
 
 ## Build
 
 ```bash
-yarn build
+npm run build
 ```
 
 ## Customize
