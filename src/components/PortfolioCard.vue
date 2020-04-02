@@ -78,7 +78,6 @@ export default {
       edges {
         node {
           content
-          title
           id
           path
         }
