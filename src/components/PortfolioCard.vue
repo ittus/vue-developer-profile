@@ -7,7 +7,8 @@
           v-for="(proj, idx) in projects"
           :project="proj"
           :key="proj.name"
-          class="col-6" />
+          class="col-6"
+        />
       </div>
     </Card>
     <modal v-if="showModal && currentProject" @close="showModal = false">
@@ -29,7 +30,7 @@ export default {
     'projects': {
       type: Array,
       required: true,
-      default: function() {
+      default: function () {
         return []
       }
     }
@@ -49,7 +50,7 @@ export default {
     }
   },
   watch: {
-    showModal (newVal) {
+    showModal(newVal) {
       if (newVal) {
         document.body.classList.add('v--modal-block-scroll')
       } else {
@@ -59,10 +60,10 @@ export default {
   },
   methods: {
     getDescription(projectFileName) {
-      const filename = `/src/data/projects/${projectFileName}`
+      const filename = `/src/data/projects/${projectFileName}/`
       return this.projectDescriptions.find(item => item.path === filename).content
     },
-    onShowDetail (project) {
+    onShowDetail(project) {
       this.currentProject = project
       this.showModal = true
     }
