@@ -1,4 +1,4 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{219:function(t,e,n){
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{190:function(t,e,n){
 /*!
  * vue-typer v1.2.0
  * Copyright 2016-2017 Chris Nguyen
