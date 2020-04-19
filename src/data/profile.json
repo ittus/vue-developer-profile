@@ -2,7 +2,12 @@
   "personal": {
     "name": "Thang",
     "full_name": "Thang Vu",
-    "roles": ["Software Engineer", "Bug Producer", "Open source contributor", "Coffee lover"]
+    "roles": [
+      "Software Engineer",
+      "Bug Producer",
+      "Open source contributor",
+      "Coffee lover"
+    ]
   },
   "githubUrl": "https://github.com/ittus/vue-developer-profile",
   "buy_me_coffee_url": "https://www.buymeacoffee.com/8buMYCOog",
@@ -53,8 +58,7 @@
       "name": "Hochschule Furtwangen University - Germany",
       "start": "Sep 2013",
       "end": "Feb 2014",
-      "description": [
-      ]
+      "description": []
     },
     {
       "degree": "",
@@ -102,9 +106,10 @@
       "start": "July 2017",
       "end": "Present",
       "description": [
-        "Develop and maintain company's web application",
-        "Working with VueJS, AWS, Google Cloud and serverless architecture",
-        "Backend development with NodeJS, Ruby On Rails and Golang"
+        "Build a Design System which is reusable in other projects",
+        "Design and build Micro Frontends system which makes outsourcing project easily",
+        "Develop and maintain company's service application, front-end development with VueJS, backend development using NodeJS (Serverless architecture), Ruby on Rails and Golang",
+        "Technology: VueJS, NodeJS, Ruby on Rails, Golang, Kubernetes, AWS, Google Cloud, CI/CD"
       ]
     },
     {
@@ -113,8 +118,9 @@
       "start": "Nov 2015",
       "end": "Apr 2017",
       "description": [
-        "Web front-end developer using React JS",
-        "Web backend using NodejS, Django, PostgreSQL and Cassandra"
+        "Build a video system that serves more than 3000 users.",
+        "Design and implement Cassandra clusters for analytic query, reduce query time from 10 seconds to under 5 seconds and stable event if the number of records increases.",
+        "Technology: ReactJS, NodeJS, Django, PostgreSQL, Cassandra"
       ]
     },
     {
@@ -123,8 +129,8 @@
       "start": "Jan 2013",
       "end": "Sep 2013",
       "description": [
-        "Internship as Android developer",
-        "Develop a Mail System Website using Oracle Database 10g and PHP (Zend 2 Framework)"
+        "Develop a Mail System for Japanese customer",
+        "Technology: PHP Zend 2 Framework, Oracle Database."
       ]
     }
   ],
