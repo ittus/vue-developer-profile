@@ -48,11 +48,11 @@ export default {
         return {}
       }
     },
-    "coffeeDonateUrl": {
+    'coffeeDonateUrl': {
       type: String,
       required: false,
       default: function() {
-        return "https://www.buymeacoffee.com/8buMYCOog"
+        return 'https://www.buymeacoffee.com/8buMYCOog'
       }
     }
   },
@@ -61,11 +61,26 @@ export default {
     BuyMeACoffee
   },
   data: () => ({
-
+    isPaid: false
   }),
+  created() {
+    if (process.isClient) {
+      if (document.monetization) {
+        document.monetization.addEventListener('monetizationstart', event => {
+          if (document.monetization.state === 'started') {
+            this.isPaid = true
+          }
+        });
+      }
+    }
+  },
   methods: {
     downloadResume() {
-      window.open("https://www.linkedin.com/in/ittus/", "_blank")
+      if (!this.isPaid) {
+        window.open(this.coffeeDonateUrl, '_blank')
+      } else {
+        window.open('https://www.linkedin.com/in/ittus/', '_blank')
+      }
     }
   }
 }
