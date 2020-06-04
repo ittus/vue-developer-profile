@@ -6,7 +6,7 @@
           :key="idx"
           :certification="cert"
         />
-        <hr class="my-5" v-if="idx !== certifications.length - 1">
+        <hr class="my-5" :key="'hr-' + idx" v-if="idx !== certifications.length - 1">
       </template>
 
     </Card>
