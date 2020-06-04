@@ -64,13 +64,15 @@ export default {
     isPaid: false
   }),
   created() {
-     if (document.monetization) {
+    if (process.isClient) {
+      if (document.monetization) {
         document.monetization.addEventListener('monetizationstart', event => {
           if (document.monetization.state === 'started') {
             this.isPaid = true
           }
         });
       }
+    }
   },
   methods: {
     downloadResume() {
