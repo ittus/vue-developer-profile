@@ -15,6 +15,7 @@
     "@fortawesome/vue-fontawesome": "^0.1.6",
     "bootstrap": "^4.3.1",
     "gridsome": "^0.7.0",
+    "vue": "^2.6.12",
     "vue-typer": "^1.2.0"
   },
   "devDependencies": {
@@ -23,6 +24,7 @@
     "gh-pages": "^2.0.1",
     "node-sass": "^4.14.1",
     "sass-loader": "^7.3.1",
-    "sharp": "^0.25.3"
+    "sharp": "^0.25.3",
+    "vue-template-compiler": "^2.6.12"
   }
 }
