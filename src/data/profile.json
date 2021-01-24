@@ -136,6 +136,14 @@
   ],
   "certifications": [
     {
+      "name": "AWS Certified Solutions Architect - Professional",
+      "date": "Jan 2021",
+      "granted": "Amazon Web Services",
+      "link": "https://www.dropbox.com/s/fkws2amyuhk18ua/AWS%20Certified%20Solutions%20Architect%20-%20Professional%20certificate.pdf?dl=0",
+      "icon": "https://user-images.githubusercontent.com/5120965/56879200-89bac900-6a92-11e9-8ef2-3802a8c0e6cb.png",
+      "description": "Validates technical expertise in designing and deploying scalable, highly available, and fault-tolerant systems on the AWS platform"
+    },
+    {
       "name": "Certified Kubernetes Administrator (CKA)",
       "date": "Oct 2019",
       "granted": "Cloud Native Computing Foundation (CNCF) and The Linux Foundation",
