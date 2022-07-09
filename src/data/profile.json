@@ -1,6 +1,6 @@
 {
   "personal": {
-    "name": "Thang",
+    "name": "Thang Vu",
     "full_name": "Thang Vu",
     "roles": [
       "Software Engineer",
@@ -101,14 +101,28 @@
   ],
   "works": [
     {
+      "title": "Software Engineer, Machine Learning Tools",
+      "company": "Woven Planet Holdings - Japan",
+      "start": "June 2021",
+      "end": "Present",
+      "description": [
+        "Build MLOps pipeline on top of Kubernetes for machine learning engineers",
+        "Optimize computing resources for training infrastructure",
+        "Build model deployment architecture for online inference and batch inference, benchmark and optimize throughput and latency",
+        "Technology: Kubernetes, Kubeflow, Python, React, Golang, Terraform, Hashicorp Vault, gRPC, AWS, Kubernetes, Jenkins, ArgoCD, GitHub Actions, Istio"
+      ]
+    },
+    {
       "title": "Software Engineer",
       "company": "ABEJA Inc. - Japan",
       "start": "July 2017",
-      "end": "Present",
+      "end": "May 2021",
       "description": [
-        "Build a Design System which is reusable in other projects",
-        "Design and build Micro Frontends system which makes outsourcing project easily",
-        "Develop and maintain company's service application, front-end development with VueJS, backend development using NodeJS (Serverless architecture), Ruby on Rails and Golang",
+        "Build annotation web portal to support data labeling in machine learning. Support 7+ templates such as object detection, semantic segmentation, text extraction, video scene labeling",
+        "Build a frontend design system that is reusable in multiple projects. Build common components with HTML, CSS, and Javascript",
+        "Design and build micro-frontends system to allow parallel develop multiple front-end templates,enable outsourcing easily",
+        "Build a web portal to provide an insightful dashboard to clients in the retail industry, build a CRM web portal for internal usage",
+        "Answering more than 500 questions and getting in the top 1% regarding VueJS on Stackoverflow",
         "Technology: VueJS, NodeJS, Ruby on Rails, Golang, Kubernetes, AWS, Google Cloud, CI/CD"
       ]
     },
@@ -135,6 +149,22 @@
     }
   ],
   "certifications": [
+    {
+      "name": "AWS Certified Machine Learning - Specialty",
+      "date": "Jun 2022",
+      "granted": "Amazon Web Services",
+      "link": "https://www.credly.com/badges/958460f9-5385-4b6c-a50b-ba5dffb48f46/public_url",
+      "icon": "https://user-images.githubusercontent.com/5120965/56879200-89bac900-6a92-11e9-8ef2-3802a8c0e6cb.png",
+      "description": "Demonstrated ability to build, train, tune, and deploy ML models using the AWS Cloud"
+    },
+    {
+      "name": "HashiCorp Certified: Terraform Associate",
+      "date": "Aug 21",
+      "granted": "HashiCorp",
+      "link": "https://www.credly.com/badges/d952d54b-d93d-4c4f-acad-a8ea2a84f202",
+      "icon": "https://user-images.githubusercontent.com/5120965/178106748-1de8b82c-4e79-40da-a85b-8bf15e22de9a.jpeg",
+      "description": "Know the basic concepts, skills, and use cases associated with open source HashiCorp Terraform"
+    },
     {
       "name": "AWS Certified Solutions Architect - Professional",
       "date": "Jan 2021",
