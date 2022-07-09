@@ -136,6 +136,22 @@
   ],
   "certifications": [
     {
+      "name": "AWS Certified Machine Learning - Specialty",
+      "date": "Jun 2022",
+      "granted": "Amazon Web Services",
+      "link": "https://www.credly.com/badges/958460f9-5385-4b6c-a50b-ba5dffb48f46/public_url",
+      "icon": "https://user-images.githubusercontent.com/5120965/56879200-89bac900-6a92-11e9-8ef2-3802a8c0e6cb.png",
+      "description": "Demonstrated ability to build, train, tune, and deploy ML models using the AWS Cloud"
+    },
+    {
+      "name": "HashiCorp Certified: Terraform Associate",
+      "date": "Aug 21",
+      "granted": "HashiCorp",
+      "link": "https://www.credly.com/badges/d952d54b-d93d-4c4f-acad-a8ea2a84f202",
+      "icon": "https://user-images.githubusercontent.com/5120965/178106748-1de8b82c-4e79-40da-a85b-8bf15e22de9a.jpeg",
+      "description": "Know the basic concepts, skills, and use cases associated with open source HashiCorp Terraform"
+    },
+    {
       "name": "AWS Certified Solutions Architect - Professional",
       "date": "Jan 2021",
       "granted": "Amazon Web Services",
