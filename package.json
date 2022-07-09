@@ -14,7 +14,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.8.1",
     "@fortawesome/vue-fontawesome": "^0.1.6",
     "bootstrap": "^4.6.1",
-    "gridsome": "^0.7.0",
+    "gridsome": "^0.7.23",
     "vue": "^2.7.4",
     "vue-typer": "^1.2.0"
   },
